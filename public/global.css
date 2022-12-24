@@ -1,0 +1,17 @@
+:root {
+    --red-100: #f8d7da;
+    --red-500: #dc3545;
+
+    --gray-100: #e9ecef;
+    --gray-200: #e1e1e6;
+    --gray-300: #c4c4cc;
+}
+
+.btn-theme-primary {
+    border-color: var(--red-500) !important;
+    color: var(--red-500) !important;
+}
+
+.btn-theme-primary:hover {
+    background-color: var(--red-100) !important;
+}
